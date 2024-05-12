@@ -13,8 +13,8 @@ for neural network course.
 - **Model Architecture**: A U-Net-based generative diffusion model designed specifically for image generation.
 - **Key Features**:
   - Implementation of a denoising diffusion probabilistic model.
-  - U-Net architecture for improved performance.
-  - Support for conditional and unconditional generation.
+  - U-Net architecture.
+  - Support for conditional (class conditioning)
 
 ### Model Components
 1. **U-Net Architecture**:
@@ -31,4 +31,4 @@ for neural network course.
    - Use the denoising score matching objective to minimize reconstruction loss.
 
 2. **Generation Process**:
-   - Generate road sign images from random noise using the reverse diffusion process.
+   - Generate road sign images from random noise using the diffusion process.
